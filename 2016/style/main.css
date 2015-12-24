@@ -254,7 +254,7 @@ section a:hover {
 }
 
 .speaker-entity {
-  width: 100%;
+  width: 50%;
   float: left;
   margin-bottom: 1.5em;
   text-align: left;
@@ -360,6 +360,40 @@ footer a {
 footer a:hover {
   color: #4d9ccb;
 }
+
+.dateslist {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dateslist li {
+    color: black;
+    font-weight: normal;
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+.dateslist li span {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    color: #0071b5;
+    float: right;
+    position: relative;
+    padding-right: 4em;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------*/
 /*--------------- Media Queries --------------*/
