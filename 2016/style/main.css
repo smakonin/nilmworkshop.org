@@ -325,9 +325,10 @@ a.button:active {
 }
 
 #location p {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: left;
   margin-top: 1em;
+  text-align: justify;
 }
 
 #sponsors {
@@ -389,258 +390,102 @@ footer a:hover {
 
 
 
-
-
-
-
-
-
 /*--------------------------------------------*/
-/*--------------- Media Queries --------------*/
+/*---------------- Schedule ------------------*/
 /*--------------------------------------------*/
 
-@media only screen and (max-width: 1200px) {
-
-  .speaker-entity {
-    width: 33%;
-  }
-
+#schedule, #sponsors {
+  color: white;
 }
 
-@media only screen and (max-width: 920px) { 
-
-  .speaker-entity {
-    width: 50%;
-  }
-
+.day-title {
+  background: #002a41;
+  font-size: 1.4em;
+  font-weight: 100;
+  width: 50%;
+  padding: .5em 0;
+  display: inline-block;
+  margin-right: -4px;
+  cursor: pointer;
 }
 
-@media only screen and (max-width: 840px) {
-
-  #logo img {
-    width: 110px;
-  }
-
-  #logo .name {
-    font-size: 2.8em;
-  }
-
-  #menu {
-    font-size: .8em;
-  }
-
-  #menu ul {
-    height: 4.2em;
-    line-height: 4.2em;
-  }
-
-  #menu a {
-    padding: .8em .5em;
-  }
-
+.day-title.day-title-one {
+  border-radius: 5em 0 0 5em;
+  -webkit-border-radius: 5em 0 0 5em;
+  -moz-border-radius: 5em 0 0 5em;
 }
 
-@media only screen and (max-width: 780px) {
-
-  #schedule .event .read-more {
-    display: none;
-  }
-
-  #day-one .talk-speaker, #day-two .talk-speaker {
-    width: 80%;
-  }
-
-  #day-one .time, #day-two .time {
-    width: 18%;
-  }
-
-  .modal-container {
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0;
-  }
-
+.day-title.day-title-two {
+  border-radius: 0em 5em 5em 0em;
+  -webkit-border-radius: 0em 5em 5em 0em;
+  -moz-border-radius: 0em 5em 5em 0em;
 }
 
-@media only screen and (max-width: 680px) {
-
-  #menu a {
-    margin: 0;
-  }
-
-  #subheader .statement {
-    width: 100%;
-  }
-
-  .sponsor-logos span{
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 1em;
-    margin-right: 0;
-  }
-
+#day-one, #day-two {
+  overflow: auto;
 }
 
-@media only screen and (max-width: 620px) {
-
-  .block {
-    width: 90%;
-  }
-
-  #logo .name {
-    font-size: 2em;
-  }
-
-  #logo img {
-    width: 80px;
-  }
-
-  #header .time {
-    font-size: 1em;
-  }
-
-  #header {
-    padding: 1em 0;
-  }
-
-  #subheader {
-    padding: 1.5em 0;
-  }
-
-  #subheader .statement {
-      font-size: 1.5em;
-  }
-
-  #menu .block{
-    width: 100%;
-  }
-
-  #menu a {
-    display: block;
-    padding: 0;
-    width: 90%;
-    margin: auto;
-  }
-
-  #menu ul.block-2 {
-    display: none;
-    width: 100%;
-    height: 100%;
-  }
-
-  #menu ul.block-2[role="custom-dropdown"] input[type=checkbox]:checked ~ ul > li {
-    width: 100%;
-    opacity: .8;
-    text-align: left;
-  }
-
-  #menu ul li {
-    display: block;
-    text-align: left;
-    border-top: 1px solid #0d425f;
-  }
-
-  #menu label {
-    display: block;
-    min-height: 4em;
-    font-size: 1.1em;
-    margin: 0;
-  }
-
-  #menu label:after {
-    background-image: url("../img/menu-more.png");
-    content: '';
-    position: absolute;
-    right: .5em;
-    top: .6em;
-    font-size: 1.8em;
-    width: 23px;
-    height: 19px;
-  }
-
-  #menu input[type=checkbox]:checked ~ ul {
-    display:block;
-  }
-
-  section .title {
-    text-align: center;
-  }
-
-  .button a {
-    width: 100%;
-    margin: 0;
-    padding: .7em 0;
-  }
-
-  .speaker-info {
-    display: none;
-  }
-
-  .speaker-entity .description {
-    margin: auto;
-    text-align: left;
-  }
-
-  .speaker-entity {
-    width: 100%;
-    text-align: center;
-  }
-
-  #mission {
-    font-size: .9em;
-  }
-
+#day-one .event, #day-two .event {
+  padding: 2em 0;
+  border-bottom: 2px solid #4d9ccb;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-@media only screen and (max-width: 575px) {
-
-  #day-one .talk-speaker, #day-two .talk-speaker, #day-one .time, #day-two .time {
-    width: 100%;
-  }
-
+#day-one .event span, #day-two .event span{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
-@media only screen and (max-width: 575px) {
-
-  #schedule .block.day-one #day-two, #schedule .block.day-two #day-one, .day-title.day-title-two.hidden {
-    display: block;
-  }
-
-  .day-title.day-title-two {
-    display: none;
-  }
-
-  .day-title.day-title-two.hidden, .day-title.day-title-one {
-    width: 100%;
-    border-radius: 5em;
-    -webkit-border-radius: 5em;
-    -moz-border-radius: 5em;
-    cursor: default;
-    background: #002a41;
-  }
-
-  .day-title.day-title-two.hidden {
-      margin-top: 2em;
-  }
-
-  #day-one .event, #day-two .event {
-    padding: 1em 0;
-  }
-
-  #day-one .talk-speaker .speaker-talk-title, #day-two .talk-speaker .speaker-talk-title {
-    font-size: 1.7em;
-  }
-
+#day-one .time, #day-two .time {
+  width: 15%;
+  line-height: 2.3em;
 }
 
-@media screen and (max-width: 480px) {
+#day-one .talk-speaker, #day-two .talk-speaker {
+  width: 79%;
+}
 
-  .modal-content {
-    max-height: 300px;
-    overflow-y: scroll;
-  }
+#day-one .talk-speaker .speaker-talk-title, #day-two .talk-speaker .speaker-talk-title {
+  font-size: 1.5em;
+  font-weight: 100;
+}
 
+.speaker-talk-title img {
+  vertical-align: middle;
+}
+
+#day-one .talk-speaker .speaker-name, #day-two .talk-speaker .speaker-name {
+  font-size: 1.2em;
+  color: #002a41;
+  margin-top: .2em;
+}
+
+.speaker-name a {
+  color: #002a41;
+}
+
+.speaker-name a:hover {
+  text-decoration: none;
+}
+
+/*#day-one .read-more span, #day-two .read-more span {
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  background-color: #005587;
+  padding: .5em 1.5em;
+  color: white;
+  cursor:pointer;
+}*/
+
+#schedule .block.day-one #day-two, #schedule .block.day-two #day-one, .hidden {
+  display: none;
+}
+
+.day-one .day-title-two, .day-two .day-title-one {
+  background: rgba(0, 42, 65, 0.5)
 }
 
