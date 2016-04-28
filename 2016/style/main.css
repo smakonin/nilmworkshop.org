@@ -489,3 +489,59 @@ footer a:hover {
   background: rgba(0, 42, 65, 0.5)
 }
 
+table{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;  
+  border: solid 1px white;
+}
+
+table td, table th {
+  width: 10%;
+  height: 3em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+}
+
+table td.descr, table th.descr {
+  width: 80%;
+  padding-left: 1em;
+  text-align: left;
+}
+
+table td.colspan {
+  text-align: center;
+}
+
+table td.rowspan {
+  vertical-align: top;
+  padding-top: 1em;
+}
+
+table th {
+  background-color: white;
+  color: #0071b5;  
+}
+
+table th.l {
+  border-left: solid 1px #0071b5;
+}
+
+table td {
+  color: white;
+  border: solid 1px white;
+  font-weight: 300;
+}
+
+table td span{
+  font-weight: normal;
+}
+
+table td a {
+  color: white;
+  font-style: italic;
+}
