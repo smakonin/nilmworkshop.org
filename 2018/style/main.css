@@ -40,7 +40,7 @@ a {
   max-width: 734px;
   margin: auto;
   display: inline-block;
-  vertical-align: top;    
+  vertical-align: top;
 }
 
 .third-block {
@@ -250,15 +250,22 @@ section a:hover {
 }
 
 .speaker-entity img {
-  width: 170px;
+  width: 240px;
 }
 
 .speaker-entity {
   width: 50%;
   float: left;
   margin-bottom: 1.5em;
-  text-align: left;
-  
+  text-align: center;
+
+}
+
+.keynote {
+  width: 100%;
+  font-size: 13pt;
+  color: #5c5c5c;
+  text-align: center;
 }
 
 .description a.links {
@@ -269,19 +276,25 @@ section a:hover {
   font-weight: bold;
 }
 
-.description {
-  width: 236px;
-}
-
 .speaker-entity .description .talk-name {
-    font-weight:bold; 
+    font-weight:bold;
     color: #002a41;
+    text-align: center;
 }
 
 .speaker-entity .description .talk-type {
     font-weight:bold;
     font-style: italic;
     color: #5c5c5c;
+}
+
+.keynote .keynote-descr {
+    font-weight: normal;
+}
+
+.keynote span.keynote-title {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .button-strip {
@@ -495,7 +508,7 @@ table{
   margin: 0;
   padding: 0;
   border-collapse: collapse;
-  border-spacing: 0;  
+  border-spacing: 0;
   border: solid 1px white;
 }
 
@@ -524,7 +537,7 @@ table td.rowspan {
 
 table th {
   background-color: white;
-  color: #0071b5;  
+  color: #0071b5;
 }
 
 table th.l {
