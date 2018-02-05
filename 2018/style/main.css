@@ -35,6 +35,14 @@ a {
   vertical-align: top;
 }
 
+.seventy-block {
+  width: 70%;
+  max-width: 770px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .two-third-block {
   width: 52%;
   max-width: 734px;
@@ -58,7 +66,7 @@ a {
 
 .orglist li {
     font-size: 18px;
-    color: #0071b5;
+    color: #00a025;
     font-weight: bold;
     margin-bottom: 20px;
     position: relative;
@@ -74,11 +82,11 @@ a {
 }
 
 .blue {
-  background-color: #0071b5;
+  background-color: #00a025;
 }
 
 #header {
-  background: #f1f1f1 url('../images/power.png');
+  background: #f1f1f1 url('../images/background.jpg');
   background-position: center center;
   background-position: fixed;
   background-repeat: no-repeat;
@@ -98,30 +106,30 @@ a {
     text-align: center;
     font-weight: 400;
     font-size: 3.5em;
-    color: #002a41;
+    color: #004102;
     letter-spacing: -3px;
     font-weight: 900;
 }
 
 #logo .name span {
-    color: #096095;
+    color: #09951b;
 }
 
 #header .subtitle {
   font-size: 2em;
   font-weight: 400;
-  color: #002a41;
+  color: #004102;
 }
 
 #header .time {
   padding-top: 0.5em;
   font-size: 1.4em;
   font-weight: 100;
-  color: #002a41;
+  color: #004102;
 }
 
 #menu {
-  background-color: #002a41;
+  background-color: #004102;
   color: white;
   position: relative;
   z-index: 2;
@@ -151,7 +159,7 @@ a {
 }
 
 #menu a:hover {
-  color: #4d9ccb;
+  color: #7fcb4d;
 }
 
 #menu label {
@@ -167,7 +175,7 @@ a {
 }
 
 #subheader {
-  background-color: #0071b5;
+  background-color: #00a025;
   padding: 2.5em 0;
   position: relative;
 }
@@ -189,7 +197,7 @@ a {
 }
 
 #subheader .registration a {
-  background: #002a41;
+  background: #004102;
   display: inline-block;
   padding: .7em 3.5em;
   margin: 0 .7em;
@@ -201,7 +209,7 @@ a {
 }
 
 #subheader .registration a:hover {
-  color: #4d9ccb;
+  color: #7fcb4d;
 }
 
 #subheader .old-backbone {
@@ -238,7 +246,7 @@ section .title {
 }
 
 section a {
-  color: #0071b5;
+  color: #00a025;
 }
 
 section a:hover {
@@ -270,15 +278,15 @@ section a:hover {
 
 .description a.links {
   font-size: 1.2em;
-  color: #0071b5;
+  color: #00a025;
   margin: .3em 0 0 0;
   display: block;
   font-weight: bold;
-} 
+}
 
 .speaker-entity .description .talk-name {
     font-weight:bold;
-    color: #002a41;
+    color: #004102;
     text-align: center;
 }
 
@@ -299,7 +307,7 @@ section a:hover {
 
 .button-strip {
   text-align: center;
-  border-top: 1px solid #002a41;
+  border-top: 1px solid #004102;
   padding-top: 2em;
   margin-top: 2em;
 }
@@ -320,7 +328,7 @@ a.button {
           transition-duration: 0.3s;
   -webkit-transition-property: -webkit-transform;
           transition-property: transform;
-  background: #002a41;
+  background: #004102;
   font-size: 1.4em;
   font-weight: 100;
   color: white;
@@ -328,7 +336,7 @@ a.button {
 
 a.button:hover {
     text-decoration: none;
-    color: #4d9ccb;
+    color: #7fcb4d;
 }
 
 a.button:active {
@@ -357,8 +365,15 @@ a.button:active {
   padding-bottom: 20px;
 }
 
+#sponsors span{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-right: 0;
+  text-align: justify;
+}
+
 footer {
-  background-color: #002a41;
+  background-color: #004102;
   color: white;
   text-align: left;
 }
@@ -372,7 +387,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #4d9ccb;
+  color: #7fcb4d;
 }
 
 .dateslist {
@@ -393,7 +408,7 @@ footer a:hover {
     font-weight: bold;
     color: black;
     text-align: right;
-    color: #0071b5;
+    color: #00a025;
     float: right;
     position: relative;
     padding-right: 4em;
@@ -412,7 +427,7 @@ footer a:hover {
 }
 
 .day-title {
-  background: #002a41;
+  background: #004102;
   font-size: 1.4em;
   font-weight: 100;
   width: 50%;
@@ -440,7 +455,7 @@ footer a:hover {
 
 #day-one .event, #day-two .event {
   padding: 2em 0;
-  border-bottom: 2px solid #4d9ccb;
+  border-bottom: 2px solid #7fcb4d;
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
@@ -472,12 +487,12 @@ footer a:hover {
 
 #day-one .talk-speaker .speaker-name, #day-two .talk-speaker .speaker-name {
   font-size: 1.2em;
-  color: #002a41;
+  color: #004102;
   margin-top: .2em;
 }
 
 .speaker-name a {
-  color: #002a41;
+  color: #004102;
 }
 
 .speaker-name a:hover {
@@ -537,11 +552,11 @@ table td.rowspan {
 
 table th {
   background-color: white;
-  color: #0071b5;
+  color: #00a025;
 }
 
 table th.l {
-  border-left: solid 1px #0071b5;
+  border-left: solid 1px #00a025;
 }
 
 table td {
