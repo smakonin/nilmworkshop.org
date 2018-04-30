@@ -1,0 +1,638 @@
+html {
+	background-color:#353535;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color:#000000;
+	background-color: #353535;
+}
+
+img {
+	border:0px;
+}
+
+
+p {
+	margin: 4px 0 10px 0;
+	padding: 0;
+	line-height: 160%;
+}
+
+.rightcol p {
+	margin: 0 0 0 15px;
+}
+
+a {
+
+	color: #C51230;
+}
+a:hover {
+	text-decoration: none;
+	color: FFFFFF;
+	background-color: #C51230;
+}
+form {
+	padding:0;
+	margin:0;
+}
+label {
+	display:block;
+	float:left;
+}
+#content input, #content textarea {
+	color:#000;
+	float:left;
+	font-size: 100%;
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 1px 0 0 4px;
+}
+
+.titles {
+	margin:0;
+	padding: 16px 0 8px 0;
+	width:900px;
+	height:50px;
+}
+
+.titleheader {
+	width:660px;
+	font-weight:lighter;
+	height:50px;
+	float:left;
+	font-size: 36px;
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/horiz_line.gif) bottom repeat-x;
+}
+
+
+
+h1 {
+	color: #C51230;
+	font-size: 150%;
+	padding: 0 0 20px 0;
+}
+
+h2, h3 {
+	font-family: Garamond, Georgia, "Times New Roman", Times, serif;
+	color: #C51230;
+	font-size: 100%;
+	padding: 0;
+}
+
+h4 {
+	color: #C51230;
+	font-size: 120%;
+	font-weight:normal;
+	padding: 0;
+}
+
+#header h1, #headerblack h1 {
+	font-size: 250% !IMPORTANT;
+	padding: 20px 0 0 0;
+	margin: 0;
+	width: 50%;
+	float: left;
+}
+#header p, #headerblack p{
+	float: right;
+	padding: 20px;
+	color: #000;
+	font-size: 150%;
+}
+#frame {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+#wrapper  { margin: 0 auto 0 auto; width: 900px }
+
+/*START NAV*/
+#navigation {
+	width: 900px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	height: 50px;
+	clear: both;
+}
+
+#navigation ul {
+	line-height: 18px;
+	float:left;
+	font-size:15px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+	width: 900px;
+}
+
+
+
+
+#navigation ul li ul {
+  display: none;
+  position: absolute; 
+  top: 3em;
+  left: 0;
+  
+  	font-weight: normal;
+	background-color: #0F0;
+	padding: 0.5em 0 1em 0;
+	border-right: solid 1px #7d6340;
+}
+
+
+
+
+
+
+#navigation li {
+	float:left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	list-style-position: inside;
+	text-align:center;
+	
+	
+	position: relative;
+}
+
+#navigation a {
+	display: block;
+	text-decoration: none;
+	color: #AAAAAA;
+	margin: 0;
+	padding: 16px 15px 16px 15px;
+}
+#navigation a:hover {
+	display: block;
+	color: #CCFF00;
+	text-decoration: none;
+	margin: 0;
+	padding: 16px 15px 16px 15px;
+}
+
+#navigation form {
+	float: right;
+	padding: 14px 0 0 0;
+	color: #AAAAAA;
+}
+
+#navigation form label {
+	font-size: 15px;
+}
+
+#navigation form input, #navigation form button {
+	vertical-align: middle;
+	float: left;
+	margin: 0 3px 0 0;
+}
+#navigation form input {
+	background: #cccccc;
+	border:0;
+	height:17px;
+	/*font-weight:bold;*/
+	color: #353535;
+	padding: 1px 0 0 3px;
+}
+#navigation form input.search {
+	background:#666 url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/searchbg.gif) repeat-x !IMPORTANT;
+	border:0 !IMPORTANT;
+	height:20px;
+	/*font-weight:bold;*/
+	color: #fff;
+	padding: 1px 0 0 3px;
+}
+
+div.results {
+background: #000 url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/lime.jpg) no-repeat top;
+margin: 0;
+padding: 150px 0 0 0;
+border: 1px solid red;
+}
+div.cse-closeResults a {
+	border: 0 !IMPORTANT;
+}
+
+.currentpage  { color: #CCFF00 }
+
+p.message {
+	color: #C00;
+	border-top: 1px solid #C00;
+	border-bottom: 1px solid #C00;
+	padding: 10px;
+}
+
+
+
+/* end nav */
+
+#headerback {
+	height: 200px;
+	width: 100%;
+	margin:0;
+	clear:both;
+	
+}
+#header, #headerblack {
+	height: 200px;
+	min-height: 200px;
+	display: block;
+	width: 900px;
+	margin:0 auto 0 auto;
+}
+/* main body */
+#contentback {
+	width:100%;
+	background: #FFFFFF;
+	clear:both;
+	min-height: 500px;
+}
+
+background:#555 repeat-x url(images/bodybackground.gif) top right;
+
+#content {
+	width: 900px;
+	margin:0 auto 0 auto;
+	min-height: 500px;
+}
+div.content {
+	width: 900px;
+	margin:0 auto 0 auto;
+	min-height: 200px;
+}
+.address {
+	text-align:left;
+	color:#999;
+	float: right;
+	width: 210px;
+	font-size: 11px;
+}
+
+/* columns */
+.singlecol {
+	display: inline;
+	float:left;
+	width: 210px;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+.doublecol {
+	display: inline;
+	float: left;
+	width: 435px;
+	margin: 0 15px 0 0;
+	padding: 25px 0 0 0;
+}
+.fullcol {
+	text-align:left;
+	float:left;
+	width: 660px;
+	margin: 0 0 20px 0;
+	padding: 25px 0 10px 0;
+}
+
+.fullcol p.morelink{
+	text-align:right;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/horiz_line.gif) bottom repeat-x;
+}
+.rightcol {
+	text-align:left;
+	color:#000000;
+	float:right;
+	width: 210px;
+	border-left: solid #353535 1px;
+}
+
+#bigline { border-top: 5px solid #7d7d7d; width: 100%;}
+
+.rightcol {
+	font-size: 80%;
+}
+
+background: url(images/vertical_line.gif) left repeat-y;
+border-left-style: dotted;
+
+.rightcol a{
+	/*font-weight: normal;*/
+}
+div.rightcol h2, div.fullcol h2 {
+	font-size: 140% !IMPORTANT;
+	margin: 0;
+	padding: 0;
+}
+div.rightcol h2 {
+	padding: 0 5px;
+	margin: 0 0 0 10px;
+	
+}
+
+div.rightcol h2 a {
+	text-decoration: none;
+	color: FFFFFF;
+	
+}
+
+.fullcol ul, .doublecol ul, .singlecol ul, .rightcol ul {
+	line-height:160%;
+	list-style-type: square;
+	margin: 4px 0 8px 0;
+	padding: 0;
+}
+.rightcol li {
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/horiz_line.gif) bottom repeat-x;
+	font-size: 80%;
+	padding: 0;
+}
+div.rightcol li p {
+	padding: 3px 0 4px 0;
+	margin: 0;
+}
+div.rightcol ul a{
+	display: block;
+	padding: 0 5px;
+} 
+div.rightcol ul a:hover li{
+	display: block;
+}
+div.rightcol {
+	float: right;
+}
+
+.textlist li {
+	text-indent: 14px;
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/bullet2.gif) no-repeat top left;
+	line-height: 120%;
+}
+
+/* end columns */
+#footerback {
+	width: 100%;
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/footerslice.gif) repeat-x top;
+}
+#footer {
+	margin: 0 auto 0 auto;
+	padding: 14px 0 60px 0;
+	width: 900px;
+	font-size:12px;
+	line-height: 19px;
+	color:#999999;
+}
+.footerbox {
+	display:inline;
+	float:left;
+	width: 160px;
+	background: url(/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/vertical_line.gif) left repeat-y;
+	padding-left: 12px;
+	height: 168px;
+}
+.footerbox a{
+	color:#777;
+}
+.footerbox a:hover{
+	color:#FFFFFF;
+}
+
+.imgright {
+	float: right;
+	margin: 6px 0px 6px 20px;
+}
+.imgleft {
+	float: left;
+	margin: 6px 30px 6px 0px;
+}
+
+#line { border-top: 1px dashed #7d7d7d; margin-left: 15px; width: 100%;  }
+.dashed { border-top: 1px dashed #7d7d7d; margin-left: 0px; width: 100%;  }
+
+/*hacks */
+.clear {
+clear:both;
+height:0;
+}
+
+/*Code for Homepage News Rotation!*/
+
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+border: 8px solid white;
+border-bottom-width: 6px;
+width: 660px; /*width of featured content slider*/
+height: 350px;
+}
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+padding: 0px;
+background: #C51230;
+width: 660px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+/*Content Div Navigation!*/
+.contentdiv a { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	}
+	
+.contentdiv a:visited { 
+	color: #DDDDDD; 
+	text-decoration: none; 
+}
+	
+.contentdiv a:hover { color: #CCFF00; text-decoration: underline; }
+
+.pagination{
+width: 617px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: left;
+background-color: #FFFFFF;/*background color of navigation boxes container*/
+padding: 5px 10px;
+}
+
+.pagination a{
+padding: 3px 5px 3px 5px;
+text-decoration: none; 
+color: #000000; /*color of non-active text in boxes*/
+background: #DDDDDD; /*background color of navigation boxes*/
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #CCFF00; /*text color of active story*/
+background-color: #666; /*background color of active story*/
+}
+
+
+.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	height: 50px;
+	}
+.menu ul{
+	background:#353535;
+	height:50px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.menu li{
+		float:left;
+		padding:0px;
+		}
+	.menu li a{
+		background:#353535 url("/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/seperator.gif") bottom right no-repeat;
+		color:#cccccc;
+		display:block;
+		font-size:15px;
+		font-weight:bold;
+		line-height:50px;
+		margin:0px;
+		padding:0px 15px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menu li a:hover, .menu ul li:hover a{
+			background: #666;
+			color:#CCFF00;
+			text-decoration:none;
+			}
+	.menu li ul{
+		background:#333333;
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		
+		}
+	.menu li li {
+		background:url('/web/20150905172540im_/http://www.ices.cmu.edu/psii/images/sub_sep.gif') bottom left no-repeat;
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+	.menu li:hover li a{
+		background:none;
+		
+		}
+	.menu li ul a{
+		display:block;
+		height:50px;
+		font-size:12px;
+		font-style:normal;
+		font-weight:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menu li ul a:hover, .menu li ul li:hover a{
+			background:#666 left no-repeat;
+			border:0px;
+			color:#FFFFFF;
+			text-decoration:none;
+			}
+	.menu p{
+		clear:left;
+		}	
+		
+		
+		
+		
+.center-nav{
+width: 100%; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: left;
+font-weight: bold;
+background-color: #353535;/*background color of navigation boxes container*/
+padding: 10px 5px;
+}
+
+.center-nav a{
+padding: 3px 10px 3px 10px;
+text-decoration: none; 
+color: #CCCCCC; /*color of non-active text in boxes*/
+background: #; /*background color of navigation boxes*/
+}
+
+.center-nav a:hover, .center-nav a.selected{
+color: #CCFF00; /*text color of active story*/
+background-color: #666666; /*background color of active story*/
+}
+
+		
+		
+input[type="submit"] { border: none; cursor: pointer; color: #fff; font-size: 24px; background-color: #7ac000; padding: 5px 36px 8px 36px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); border-bottom: 1px solid rgba(0, 0, 0, 0.4); border-top: 1px solid rgba(255, 255, 255, 0.6);
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.23, #619702),
+	    color-stop(0.62, #7ac000)
+	);
+	background: -moz-linear-gradient(
+	    center bottom,
+	    #619702 23%,
+	    #7ac000 62%
+	);
+}
+
+input[type="submit"]:hover { color: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.4); background-color: #ff5400;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.23, #c34000),
+	    color-stop(0.62, #ff5400)
+	);
+	background: -moz-linear-gradient(
+	    center bottom,
+	    #c34000 23%,
+	    #ff5400 62%
+	);
+}
+/*
+     FILE ARCHIVED ON 17:25:40 Sep 05, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:15:10 Apr 30, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 522.902 (3)
+  esindex: 0.012
+  captures_list: 538.012
+  CDXLines.iter: 10.694 (3)
+  PetaboxLoader3.datanode: 369.453 (5)
+  exclusion.robots: 0.281
+  exclusion.robots.policy: 0.25
+  RedisCDXSource: 0.725
+  PetaboxLoader3.resolve: 1035.816 (2)
+  load_resource: 1563.356
+*/
