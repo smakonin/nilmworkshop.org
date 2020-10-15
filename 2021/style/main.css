@@ -1,0 +1,590 @@
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.block {
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.half-block {
+  width: 40%;
+  max-width: 550px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.seventy-block {
+  width: 70%;
+  max-width: 770px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.two-third-block {
+  width: 52%;
+  max-width: 734px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.third-block {
+  width: 28%;
+  max-width: 365px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.orglist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orglist li {
+    font-size: 18px;
+    color: #00a025;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.orglist li p {
+    font-weight: 300;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.blue {
+  background-color: #00a025;
+}
+
+#header {
+  background: #f1f1f1 url('../images/background.jpg');
+  background-position: center center;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2.5em 0;
+}
+
+#logo img {
+  margin:auto;
+  display:block;
+}
+
+#logo .name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.5em;
+    color: #004102;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+
+#logo .name span {
+    color: #09951b;
+}
+
+#header .subtitle {
+  font-size: 2em;
+  font-weight: 400;
+  color: #004102;
+}
+
+#header .time {
+  padding-top: 0.5em;
+  font-size: 1.4em;
+  font-weight: 100;
+  color: #004102;
+}
+
+#menu {
+  background-color: #004102;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+#menu.stuck {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu ul {
+  list-style-type: none;
+  height: 3.5em;
+  line-height: 3.5em;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu a {
+  padding: .5em .25em;
+  font-size: 1.4em;
+  font-weight: 100;
+  margin: 0 .25em;
+}
+
+#menu a:hover {
+  color: #7fcb4d;
+}
+
+#menu label {
+  display: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+
+#menu input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#subheader {
+  background-color: #00a025;
+  padding: 2.5em 0;
+  position: relative;
+}
+
+#subheader .statement {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  width: 500px;
+  margin: auto;
+}
+
+#subheader .registration {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: -1.8em;
+}
+
+#subheader .registration a {
+  background: #004102;
+  display: inline-block;
+  padding: .7em 3.5em;
+  margin: 0 .7em;
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+#subheader .registration a:hover {
+  color: #7fcb4d;
+}
+
+#subheader .old-backbone {
+  margin-top: 4em;
+}
+
+#subheader .old-backbone a:hover {
+  text-decoration: underline;
+}
+
+#mission {
+  color: white;
+  margin-top: 2em;
+  max-width: 1300px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+#paper-submission {
+  margin-top: 2em;
+  max-width: 1300px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+#register {
+  color: white;
+  margin-top: 2em;
+  max-width: 1300px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.math {
+    font-weight: 600;
+    font-style: italic;
+}
+
+section {
+  padding: 5em 0;
+  clear: both;
+}
+
+section .title {
+  font-size: 3.5em;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: .8em;
+}
+
+section a {
+  color: #00a025;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+#speakers {
+  overflow: auto;
+}
+
+.speaker-entity img {
+  width: 240px;
+}
+
+.speaker-entity {
+  width: 50%;
+  float: left;
+  margin-bottom: 1.5em;
+  text-align: center;
+
+}
+
+.keynote {
+  width: 100%;
+  font-size: 13pt;
+  color: #5c5c5c;
+  text-align: center;
+}
+
+.description a.links {
+  font-size: 1.2em;
+  color: #00a025;
+  margin: .3em 0 0 0;
+  display: block;
+  font-weight: bold;
+}
+
+.speaker-entity .description .talk-name {
+    font-weight:bold;
+    color: #004102;
+    text-align: center;
+}
+
+.speaker-entity .description .talk-type {
+    font-weight:bold;
+    font-style: italic;
+    color: #5c5c5c;
+}
+
+.keynote .keynote-descr {
+    font-weight: normal;
+}
+
+.keynote span.keynote-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button-strip {
+  text-align: center;
+  border-top: 1px solid #004102;
+  padding-top: 2em;
+  margin-top: 2em;
+}
+
+a.button {
+  border: 0;
+  border-radius: 0;
+  padding: 6px 28px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-transform: uppercase;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+  background: #004102;
+  font-size: 1.4em;
+  font-weight: 100;
+  color: white;
+}
+
+a.button:hover {
+    text-decoration: none;
+    color: #7fcb4d;
+}
+
+a.button:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#location p {
+  font-size: 1em;
+  text-align: left;
+  margin-top: 1em;
+  text-align: justify;
+}
+
+#sponsors {
+  text-align: left;
+}
+
+.sponsor-logos span{
+  margin-right: 2em;
+}
+
+.sponsor-logos span img{
+  width: 275px;
+  padding-bottom: 20px;
+}
+
+#sponsors span{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-right: 0;
+  text-align: justify;
+}
+
+footer {
+  background-color: #004102;
+  color: white;
+  text-align: left;
+}
+
+footer .block {
+  padding: 1.5em 0;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #7fcb4d;
+}
+
+.dateslist {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dateslist li {
+    color: black;
+    font-weight: normal;
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+.dateslist li span {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    color: #00a025;
+    float: right;
+    position: relative;
+    padding-right: 4em;
+}
+
+
+
+
+
+/*--------------------------------------------*/
+/*---------------- Schedule ------------------*/
+/*--------------------------------------------*/
+
+#schedule, #sponsors {
+  color: white;
+}
+
+.day-title {
+  background: #004102;
+  font-size: 1.4em;
+  font-weight: 100;
+  width: 50%;
+  padding: .5em 0;
+  display: inline-block;
+  margin-right: -4px;
+  cursor: pointer;
+}
+
+.day-title.day-title-one {
+  border-radius: 5em 0 0 5em;
+  -webkit-border-radius: 5em 0 0 5em;
+  -moz-border-radius: 5em 0 0 5em;
+}
+
+.day-title.day-title-two {
+  border-radius: 0em 5em 5em 0em;
+  -webkit-border-radius: 0em 5em 5em 0em;
+  -moz-border-radius: 0em 5em 5em 0em;
+}
+
+#day-one, #day-two {
+  overflow: auto;
+}
+
+#day-one .event, #day-two .event {
+  padding: 2em 0;
+  border-bottom: 2px solid #7fcb4d;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#day-one .event span, #day-two .event span{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#day-one .time, #day-two .time {
+  width: 15%;
+  line-height: 2.3em;
+}
+
+#day-one .talk-speaker, #day-two .talk-speaker {
+  width: 79%;
+}
+
+#day-one .talk-speaker .speaker-talk-title, #day-two .talk-speaker .speaker-talk-title {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.speaker-talk-title img {
+  vertical-align: middle;
+}
+
+#day-one .talk-speaker .speaker-name, #day-two .talk-speaker .speaker-name {
+  font-size: 1.2em;
+  color: #004102;
+  margin-top: .2em;
+}
+
+.speaker-name a {
+  color: #004102;
+}
+
+.speaker-name a:hover {
+  text-decoration: none;
+}
+
+/*#day-one .read-more span, #day-two .read-more span {
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  background-color: #005587;
+  padding: .5em 1.5em;
+  color: white;
+  cursor:pointer;
+}*/
+
+#schedule .block.day-one #day-two, #schedule .block.day-two #day-one, .hidden {
+  display: none;
+}
+
+.day-one .day-title-two, .day-two .day-title-one {
+  background: rgba(0, 42, 65, 0.5)
+}
+
+table{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: solid 1px white;
+}
+
+table td, table th {
+  width: 10%;
+  height: 3em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+}
+
+table td.descr, table th.descr {
+  width: 80%;
+  padding-left: 1em;
+  text-align: left;
+}
+
+table td.colspan {
+  text-align: center;
+}
+
+table td.rowspan {
+  vertical-align: top;
+  padding-top: 1em;
+}
+
+table th {
+  background-color: white;
+  color: #00a025;
+}
+
+table th.l {
+  border-left: solid 1px #00a025;
+}
+
+table td {
+  color: white;
+  border: solid 1px white;
+  font-weight: 300;
+}
+
+table td span{
+  font-weight: normal;
+}
+
+table td a {
+  color: white;
+  font-style: italic;
+}
