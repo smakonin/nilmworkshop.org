@@ -229,7 +229,6 @@ a {
 }
 
 #paper-submission {
-  color: white;
   margin-top: 2em;
   max-width: 1300px;
   text-align: justify;
@@ -237,6 +236,7 @@ a {
 }
 
 #register {
+  color: white;
   margin-top: 2em;
   max-width: 1300px;
   text-align: justify;
