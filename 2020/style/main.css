@@ -243,6 +243,14 @@ a {
   font-weight: 200;
 }
 
+#keynote {
+  color: white;
+  margin-top: 2em;
+  max-width: 1300px;
+  text-align: justify;
+  font-weight: 200;
+}
+
 .math {
     font-weight: 600;
     font-style: italic;
