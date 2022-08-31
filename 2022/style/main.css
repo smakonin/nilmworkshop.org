@@ -62,7 +62,7 @@ a {
     font-weight: bold;
     margin-bottom: 20px;
     position: relative;
-    padding-left: 20px;
+    padding-left: 0px;
     text-align: left;
 }
 
@@ -383,7 +383,7 @@ footer a:hover {
     color: #0071b5;
     float: right;
     position: relative;
-    padding-right: 4em;
+    padding-right: 0em;
 }
 
 
