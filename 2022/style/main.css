@@ -51,10 +51,27 @@ a {
   vertical-align: top;
 }
 
+
+.paperlist {
+  
+  padding: 30px;
+}
+
+.paperlist li{
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 0px;
+  text-align: left;
+}
+
 .orglist {
     list-style-type: none;
     padding: 0;
 }
+
 
 .orglist li {
     font-size: 18px;
