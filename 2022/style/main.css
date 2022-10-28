@@ -237,6 +237,14 @@ a {
   font-weight: 200;
 }
 
+/*#keynote {
+  color: white;
+  margin-top: 2em;
+  max-width: 1300px;
+  text-align: justify;
+  font-weight: 200;
+}*/
+
 .math {
     font-weight: 600;
     font-style: italic;
@@ -267,7 +275,7 @@ section a:hover {
 }
 
 .speaker-entity img {
-  width: 170px;
+  width: 240px;
 }
 
 .speaker-entity {
@@ -276,6 +284,24 @@ section a:hover {
   margin-bottom: 1.5em;
   text-align: left;
   
+}
+
+.keynote {
+  /*width: 100%;*/
+  /*font-size: 13pt;
+  color: #5c5c5c;*/
+  /*text-align: center;*/
+  text-align: justify;
+}
+
+.tutorial {
+  /*width: 100%;*/
+  /*font-size: 13pt;
+  color: #5c5c5c;*/
+  /*text-align: center;*/
+  /*font-size: 12pt;*/
+  text-align: justify;
+  color:#FFFFFF
 }
 
 .description a.links {
